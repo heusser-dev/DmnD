@@ -72,9 +72,12 @@ const Modelo3d = () => {
     };
     animate();
 
-    const ambientalLight = new THREE.AmbientLight(0xffffff, 4);
-    scene.add(ambientalLight);
-
+    // const ambientalLight = new THREE.AmbientLight(0xffffff, 8);
+    // scene.add(ambientalLight);
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 3); // Color blanco con intensidad 1
+    directionalLight.position.set(1, 1, 1).normalize(); // Dirección de la luz
+    scene.add(directionalLight);
+    
     return () => {
       window.removeEventListener("resize", resize);
       currentRef.removeChild(renderer.domElement);
@@ -83,10 +86,17 @@ const Modelo3d = () => {
   }, []);
 
   return (
+    <div>
+      <h5 className='text-white text-center text-4xl mt-1'> 
 
-    <div className='w-full h-72 ml-0 mr-0 mt-0 pt-0' ref={mountRef}>
+OLIVER DMND
+</h5>
+     <div className='w-full h-72 ml-0 mr-0 mt-0 pt-0 z-50' ref={mountRef}>
 
-    </div>)
+      </div>
+      <h3 className=" text-white text-center  md:text-3xl ms:text-2xl ">DJ, PRODUCTOR, MUSICO, ARTISTA  HARDTECHNO  REVERSE BASS  INDUSTRIAL  UPTEMPO</h3>
+    </div>
+    )
     ;
 };
 

@@ -1,3 +1,17 @@
 .custom-cursor {
   cursor: url('https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LTNkaG9sby1wby0wMTYucG5n.png'), auto;
 }
+
+/* src/App.css */
+
+/* src/App.css */
+@font-face {
+  font-family: 'HardFont';
+  src: url('/public/assets/fonts/hard.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'HardFont', sans-serif;
+}
