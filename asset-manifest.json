@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/heusser-dev.github.io/DmnD/static/css/main.a4be93e7.css",
-    "main.js": "/heusser-dev.github.io/DmnD/static/js/main.e356d4ce.js",
-    "static/js/592.11778f44.chunk.js": "/heusser-dev.github.io/DmnD/static/js/592.11778f44.chunk.js",
-    "static/media/hard.otf": "/heusser-dev.github.io/DmnD/static/media/hard.c9d54c97755dbd4ccf3e.otf",
-    "index.html": "/heusser-dev.github.io/DmnD/index.html",
-    "main.a4be93e7.css.map": "/heusser-dev.github.io/DmnD/static/css/main.a4be93e7.css.map",
-    "main.e356d4ce.js.map": "/heusser-dev.github.io/DmnD/static/js/main.e356d4ce.js.map",
-    "592.11778f44.chunk.js.map": "/heusser-dev.github.io/DmnD/static/js/592.11778f44.chunk.js.map"
+    "main.css": "/DmnD/static/css/main.6fedc93c.css",
+    "main.js": "/DmnD/static/js/main.d3851d04.js",
+    "static/js/592.11778f44.chunk.js": "/DmnD/static/js/592.11778f44.chunk.js",
+    "static/media/hard.otf": "/DmnD/static/media/hard.c9d54c97755dbd4ccf3e.otf",
+    "index.html": "/DmnD/index.html",
+    "main.6fedc93c.css.map": "/DmnD/static/css/main.6fedc93c.css.map",
+    "main.d3851d04.js.map": "/DmnD/static/js/main.d3851d04.js.map",
+    "592.11778f44.chunk.js.map": "/DmnD/static/js/592.11778f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4be93e7.css",
-    "static/js/main.e356d4ce.js"
+    "static/css/main.6fedc93c.css",
+    "static/js/main.d3851d04.js"
   ]
 }
