@@ -69,11 +69,11 @@ const App: React.FC = () => {
         <img className='  bg-transparent dark:bg-blue-950 dark:bg-opacity-60 rounded-3xl h-52 w-auto mr-auto ml-auto m hover:scale-125 transform transition-transform duration-300' src={process.env.PUBLIC_URL + '/img/logoSinfondo.png'} />
         </div> */}
 
-        <div className="fixed z-50 text-center py-1 bottom-0 container border min-w-full bg-white">
+        <div className="fixed z-50 text-center py-1 bottom-0 container border min-w-full">
         <div>
             <iframe
                 width="100%"
-                height="166"
+                height="110"
                 scrolling="no"
                 frameBorder="no"
                 allow="autoplay"
@@ -90,11 +90,11 @@ const App: React.FC = () => {
                 fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif',
                 fontWeight: 100
             }}>
-                <a href="https://soundcloud.com/oliverdmnd" title="Øliver DMND Oficial" target="_blank" style={{ color: '#cccccc', textDecoration: 'none' }}>Øliver DMND Oficial</a> · 
-                <a href="https://soundcloud.com/oliverdmnd/oliver-dmnd-i-hate-you-free-download" title="Oliver DMND - I HATE YOU ! [FREE DOWNLOAD]" target="_blank" style={{ color: '#cccccc', textDecoration: 'none' }}>Oliver DMND - I HATE YOU ! [FREE DOWNLOAD]</a>
+                {/* <a href="https://soundcloud.com/oliverdmnd" title="Øliver DMND Oficial" target="_blank" style={{ color: '#cccccc', textDecoration: 'none' }}>Øliver DMND Oficial</a> · 
+                <a href="https://soundcloud.com/oliverdmnd/oliver-dmnd-i-hate-you-free-download" title="Oliver DMND - I HATE YOU ! [FREE DOWNLOAD]" target="_blank" style={{ color: '#cccccc', textDecoration: 'none' }}>Oliver DMND - I HATE YOU ! [FREE DOWNLOAD]</a> */}
             </div>
         </div>
-
+{/* 
           <a className='p-2' href='https://github.com/heusser-dev' target="_blank"> 
 
             <GithubOutlined style={{ fontSize: '24px' }} />
@@ -103,7 +103,7 @@ const App: React.FC = () => {
           <a className="p-2" href='https://www.linkedin.com/in/juan-pablo-heusser-escamilla-9a341721a/' target="_blank">
 
             <LinkedinOutlined style={{ fontSize: '24px', }} />
-          </a>
+          </a> */}
 
         </div>
       </Router>

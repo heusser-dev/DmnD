@@ -15,7 +15,7 @@ const Modelo3d = () => {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(25, width / height, 0.1, 100);
     scene.add(camera);
-    camera.position.set(0,53,0);
+    camera.position.set(0,65,0);
     camera.lookAt(new THREE.Vector3());
 
     const renderer = new THREE.WebGLRenderer(({ alpha: true }));
@@ -39,9 +39,9 @@ const Modelo3d = () => {
     gltfLoader.load('./models/dmnd/dmnd1.gltf', (gltf) => {
       const model = gltf.scene;
       
-      model.scale.set(2.6, 2.6, 2.6); 
-      model.position.y = 0; // Ajusta la posición en el eje Y según sea necesario/ Ajusta los valores según sea necesario1
-      model.position.z = 0; 
+      model.scale.set(1.0, 1.0, 1.0); 
+      model.position.y = 45; // Ajusta la posición en el eje Y según sea necesario/ Ajusta los valores según sea necesario1
+      model.position.z = 0;
       model.position.x = 0; 
 
       scene.add(model);
@@ -83,12 +83,11 @@ const Modelo3d = () => {
   }, []);
 
   return (
-    <div>
 
-    <h2 className=" text-white text-2xl"></h2>
-    <div className='w-full h-96 ml-0 mr-0 mt-0 pt-0' ref={mountRef}></div>
-    </div>
-  );
+    <div className='w-full h-72 ml-0 mr-0 mt-0 pt-0' ref={mountRef}>
+
+    </div>)
+    ;
 };
 
 export default Modelo3d;
